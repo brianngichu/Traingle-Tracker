@@ -43,3 +43,8 @@ header{
     height: 50px;
     width: 600px;
 }
+button{
+    margin-left: 22%;
+    margin-top: 20px;
+    width:80px;
+}
