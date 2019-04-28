@@ -15,7 +15,8 @@ header{
     font-size: 40px;
 }
 .paragraph{
-    border: 1px solid grey;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
 }
 .paragraph p{
     font-family: 'Roboto Condensed', sans-serif;
