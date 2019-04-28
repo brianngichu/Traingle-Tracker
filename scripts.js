@@ -7,4 +7,7 @@ function triangle() {
     if (side1 <= 0 || side2 <=0 || base <=0){
         answer = "use positive intergers";
     }
+    else if (side1 === side2 && side2 === base && base === side1){
+        answer = "equilateral triangle";
+    }
 }
