@@ -13,4 +13,9 @@ function triangle() {
     else if (side1 === side2 || side2 === base || base === side1){
         answer = "Isosceles triangle";
     }
+    else if ((side1 + side2 <= base &&side2 + side1 <= base) ||
+         (side1 + base <= side2 &&base + side1 <= side2) ||
+         (side2 + base <= side1 && base + side2 <= side1)){
+          answer = "No triangle";
+    }
 }
