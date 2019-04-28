@@ -24,4 +24,5 @@ function triangle() {
     else {
         answer = "error";
     }
+    document.getElementById("results").innerHTML = "The answer is " + answer
 }
