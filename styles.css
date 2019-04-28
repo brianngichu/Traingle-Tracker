@@ -48,3 +48,14 @@ button{
     margin-top: 20px;
     width:80px;
 }
+.result{
+    text-align: right;
+    margin-right: 20%;
+    transition: ease-in-out;
+    transition-duration: 4s;
+}
+#results{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 25px;
+    color: green;
+}
