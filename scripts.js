@@ -10,4 +10,7 @@ function triangle() {
     else if (side1 === side2 && side2 === base && base === side1){
         answer = "equilateral triangle";
     }
+    else if (side1 === side2 || side2 === base || base === side1){
+        answer = "Isosceles triangle";
+    }
 }
