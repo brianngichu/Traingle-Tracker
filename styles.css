@@ -33,3 +33,13 @@ header{
     font-family: 'Roboto Condensed', sans-serif;
     padding: 10px
 }
+.forms form{
+    margin-left: 22%;
+    
+}
+.forms input{
+    display: block;
+    padding:10px;
+    height: 50px;
+    width: 600px;
+}
