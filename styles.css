@@ -21,3 +21,15 @@ header{
     font-family: 'Roboto Condensed', sans-serif;
     padding-left: 35%;
 }
+.instructions h2{
+    text-align: center;
+    font-size: 30px;
+}
+.instructions > ul{
+    margin-left: 20%;
+}
+.instructions > ul > li{
+    list-style-type: circle;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 10px
+}
